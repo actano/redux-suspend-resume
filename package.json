@@ -1,0 +1,32 @@
+{
+  "name": "redux-suspend-resume",
+  "version": "0.1.0",
+  "description": "redux store enhancer to suspend/resume notifications on store changes",
+  "main": "lib/index.js",
+  "repository": "https://github.com/actano/redux-suspend-resume",
+  "author": "Actano GmbH",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "test": "mocha --compilers js:babel-core/register",
+    "build": "babel src --out-dir lib",
+    "lint": "eslint src test",
+    "prepublish": "rm -rf lib && babel src --out-dir lib"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-stage-2": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "chai": "^4.1.2",
+    "eslint": "^4.7.2",
+    "eslint-config-actano-base": "^2.1.0",
+    "eslint-plugin-import": "^2.7.0",
+    "mocha": "^3.5.3",
+    "redux": "^3.5.2",
+    "sinon": "^4.0.1",
+    "sinon-chai": "^2.14.0"
+  },
+  "dependencies": {},
+  "peerDependencies": {}
+}
