@@ -1,6 +1,6 @@
 {
   "name": "redux-suspend-resume",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "redux store enhancer to suspend/resume notifications on store changes",
   "main": "lib/index.js",
   "repository": "https://github.com/actano/redux-suspend-resume",
